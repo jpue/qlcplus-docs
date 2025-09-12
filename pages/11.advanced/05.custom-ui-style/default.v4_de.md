@@ -3,7 +3,7 @@ title: 'Benutzerdefinierter UI-Stil'
 date: '11:59 22-08-2023'
 ---
 
-Ab Version 4.5.0 kann QLC+ eine benutzerdefinierte Datei lesen, um das Erscheinungsbild der GUI auf sehr zugängliche Weise zu ändern.
+Ab Version 4.5.0 kann QLC+ eine benutzerdefinierte Datei lesen, um das Erscheinungsbild der GUI auf sehr zugängliche Weise zu ändern.<br>
 Wenn keine Datei gefunden wird, startet QLC+ mit dem Standardstil.
 
 Die Theme-Stildatei
@@ -13,7 +13,7 @@ Der Dateiname ist in QLC+ fest codiert und muss lauten: `qlcplusStyle.qss`.
 Die Stildatei muss außerdem in einem bestimmten Pfad abgelegt werden:
 
 * **Linux**: `$HOME/.qlcplus`
-* **Windows**: „C:\\Benutzer\{Benutzername}\QLC+“.
+* **Windows**: `C:\\Benutzer\{Benutzername}\QLC+`.
 * **OSX**: `$HOME/Library/Application\\ Support/QLC+`
 
 Die Theme-Datei ist in Abschnitte unterteilt. Jeder Abschnitt stellt die UI-Elemente dar, die beim Ausführen von QLC+ geändert werden. Unveränderte Abschnitte können weggelassen werden.

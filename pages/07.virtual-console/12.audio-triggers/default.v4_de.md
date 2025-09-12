@@ -10,7 +10,7 @@ Einführung
 
 Wenn Sie auf das Symbol ![](/basics/audioinput.png) klicken, wird Ihrer virtuellen Konsole ein Audio-Trigger-Widget hinzugefügt.
 Der Grafikbereich des Widgets zeigt die Live-Überwachung des aufgenommenen Audios und zeigt eine Reihe von Spektrumbalken und einen Lautstärkebalken an.
-Unten sehen Sie den von QLC+ analysierten Frequenzbereich
+Unten sehen Sie den von QLC+ analysierten Frequenzbereich.
 
 Konfiguration
 -------------

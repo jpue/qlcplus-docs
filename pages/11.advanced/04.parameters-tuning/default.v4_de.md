@@ -15,32 +15,28 @@ Denken Sie daran, dass es einen guten Grund dafür gibt, wenn Sie sie nicht übe
 Linux
 -----
 
-Die Konfigurationsdateien befinden sich im $HOME-Verzeichnis Ihres Benutzers im Ordner .config/qlcplus.
-Hier ist der Schnellbefehl, um von einem Terminal aus darauf zuzugreifen:
-`cd $HOME/.config/qlcplus`
+Die Konfigurationsdateien befinden sich im $HOME-Verzeichnis Ihres Benutzers im Ordner .config/qlcplus.<br>
+Hier ist der Schnellbefehl, um von einem Terminal aus darauf zuzugreifen: `cd $HOME/.config/qlcplus`<br>
 Sie finden sowohl QLC+- als auch Fixture-Editor-Konfigurationsdateien.
 
 Windows
 -------
 
-Konfigurationsparameter werden in der Windows-Registrierung gespeichert.
-Um darauf zuzugreifen, führen Sie das Tool „regedit“ aus und suchen Sie nach dem Schlüssel mit dem Namen „qlcplus“.
-Der Schlüssel, in dem die Benutzerkonfiguration gespeichert wird, wird benannt
-`Computer\HKEY_CURRENT_USER\Software\qlcplus\`
+Konfigurationsparameter werden in der Windows-Registrierung gespeichert.<br>
+Um darauf zuzugreifen, führen Sie das Tool „regedit“ aus und suchen Sie nach dem Schlüssel mit dem Namen „qlcplus“.<br>
+Der Schlüssel, in dem die Benutzerkonfiguration gespeichert wird, liegt unter `Computer\HKEY_CURRENT_USER\Software\qlcplus\`.
 
 macOS
 -------
 
-Konfigurationsdateien befinden sich im $HOME-Verzeichnis Ihres Benutzers im Ordner „Library/Preferences“, der von macOS standardmäßig ausgeblendet ist.
-Hier ist der Schnellbefehl, um von einem Terminal aus darauf zuzugreifen:
-`cd $HOME/Library/Preferences`
-Die QLC+-Konfigurationsdatei heißt „net.sf.Q Light Controller Plus.plist“, während die Konfigurationsdatei des Fixture-Editors „net.sf.Fixture Definition Editor.plist“ heißt.
+Konfigurationsdateien befinden sich im $HOME-Verzeichnis Ihres Benutzers im Ordner „Library/Preferences“, der von macOS standardmäßig ausgeblendet ist.<br>
+Hier ist der Schnellbefehl, um von einem Terminal aus darauf zuzugreifen: `cd $HOME/Library/Preferences`.<br>
+Die QLC+-Konfigurationsdatei heißt `net.sf.Q Light Controller Plus.plist`, während die Konfigurationsdatei des Fixture-Editors `net.sf.Fixture Definition Editor.plist` heißt.<br>
 
-**Bitte beachten Sie, dass die Einstellungen zwischengespeichert werden!**
-Grundsätzlich lädt macOS beim Booten alle Plist-Dateien im Speicher, und wenn Sie sie manuell ändern, werden die Änderungen ignoriert. Schlimmer noch: Die Dateien werden regelmäßig aktualisiert, sodass Ihre Änderungen überschrieben werden.
-Die Lösung besteht darin, nach dem Ändern einer .plist-Datei ein Terminal zu öffnen und Folgendes einzugeben:
-`killall -u yourusername cfprefsd`
-Dabei ist „IhrBenutzername“ der Name des Benutzers, den Sie für den Zugriff auf Ihren Mac verwenden. Der Befehl zwingt macOS dazu, die Einstellungen einschließlich Ihrer Änderungen neu zu laden.
+**Bitte beachten Sie, dass die Einstellungen zwischengespeichert werden!**<br>
+Grundsätzlich lädt macOS beim Booten alle Plist-Dateien im Speicher, und wenn Sie sie manuell ändern, werden die Änderungen ignoriert. Schlimmer noch: Die Dateien werden regelmäßig aktualisiert, sodass Ihre Änderungen überschrieben werden.<br>
+Die Lösung besteht darin, nach dem Ändern einer .plist-Datei ein Terminal zu öffnen und Folgendes einzugeben: `killall -u IhrBenutzername cfprefsd`.<br>
+Dabei ist `IhrBenutzername` der Name des Benutzers, den Sie für den Zugriff auf Ihren Mac verwenden. Der Befehl zwingt macOS dazu, die Einstellungen einschließlich Ihrer Änderungen neu zu laden.
 
 ## Konfiguration zurücksetzen
 <hr>
@@ -48,8 +44,8 @@ Dabei ist „IhrBenutzername“ der Name des Benutzers, den Sie für den Zugriff
 Manchmal kann es notwendig sein, die QLC+-Konfiguration zurückzusetzen und QLC+ in den Zustand „Werkseinstellungen“ zu versetzen.
 Suchen Sie dazu die Konfiguration wie im ersten Absatz beschrieben und gehen Sie dann wie folgt vor:
 
-* Unter Linux und OSX verwenden Sie den Befehl „rm 'filename‘“, um die Konfigurationsdatei zu löschen
-* Unter Windows löschen Sie den gesamten „qlcplus“-SCHLÜSSEL mit regedit
+* Unter Linux und OSX verwenden Sie den Befehl `rm 'dateiname'`, um die Konfigurationsdatei zu löschen.
+* Unter Windows löschen Sie den gesamten „qlcplus“-Schlüssel mit „regedit“.
 
 ## Parametersyntax
 <hr>
@@ -105,7 +101,7 @@ Höchstwahrscheinlich werden Sie die folgenden Parameter in einer Standard-QLC+-
 ### 2. DMX USB Enttec Open Kanalanzahl
 
 **Kategorie:** `enttecdmxusbopen`<br>
-**Name:** `Kanäle`<br>
+**Name:** `channels`<br>
 **Typ:** Ganzzahl<br>
 **Beschreibung:** Legen Sie die maximale Anzahl der DMX-Kanäle fest, die von Enttec Open-Geräten (und ähnlichen Geräten) übertragen werden.<br>
 In einigen Fällen könnten dadurch Flackerprobleme behoben werden. Versuchen Sie es zum Beispiel mit 256.<br>
@@ -114,7 +110,7 @@ In einigen Fällen könnten dadurch Flackerprobleme behoben werden. Versuchen Si
 ### 3. uDMX-Frequenz
 
 **Kategorie:** `udmx`<br>
-**Name:** `Frequenz`<br>
+**Name:** `frequency`<br>
 **Typ:** Ganzzahl<br>
 **Beschreibung:** Stellen Sie die DMX-Frame-Frequenz in Hertz für uDMX-Geräte ein<br>
 **Standard:** 30<br>
@@ -122,7 +118,7 @@ In einigen Fällen könnten dadurch Flackerprobleme behoben werden. Versuchen Si
 ### 4. uDMX-Kanalnummer
 
 **Kategorie:** `udmx`<br>
-**Name:** `Kanäle`<br>
+**Name:** `channels`<br>
 **Typ:** Ganzzahl<br>
 **Beschreibung:** Legen Sie die maximale Anzahl der von uDMX-Geräten übertragenen DMX-Kanäle fest.<br>
 In einigen Fällen könnten dadurch Flackerprobleme behoben werden. Versuchen Sie es beispielsweise mit 128.<br>
@@ -131,7 +127,7 @@ In einigen Fällen könnten dadurch Flackerprobleme behoben werden. Versuchen Si
 ### 5. Master-Timer-Frequenz
 
 **Kategorie:** `mastertimer`<br>
-**Name:** `Frequenz`<br>
+**Name:** `frequency`<br>
 **Typ:** Ganzzahl<br>
 **Beschreibung:** Stellen Sie die QLC+-Core-Timer-Frequenz in Hertz ein<br>
 **Standard:** 50<br>
