@@ -9,14 +9,14 @@ Die Skripte selbst sind in [ECMAScript](https://de.wikipedia.org/wiki/ECMAScript
 
 Skriptdateien sollten nach dem Namen des Skripts benannt werden und die Erweiterung **.js** haben. Abhängig von der Plattform sollten die Dateien entweder im QLC+-Systemskriptverzeichnis oder vorzugsweise im Benutzerskriptverzeichnis abgelegt werden:
 
-* **Linux-Benutzerverzeichnis:** ~/.qlcplus/rgbscripts/
-* **Linux-Systemverzeichnis:** /usr/share/qlcplus/rgbscripts/
+* **Linux-Benutzerverzeichnis:** `~/.qlcplus/rgbscripts/`
+* **Linux-Systemverzeichnis:** `/usr/share/qlcplus/rgbscripts/`
 
-* **OSX-Benutzerverzeichnis:** ~/Library/Application Support/QLC+/RGBScripts
-* **OSX-Systemverzeichnis:** /Applications/QLC+.app/Contents/Resources/RGBScripts
+* **OSX-Benutzerverzeichnis:** `~/Library/Application Support/QLC+/RGBScripts`
+* **OSX-Systemverzeichnis:** `/Applications/QLC+.app/Contents/Resources/RGBScripts`
 
-* **Windows-Benutzerverzeichnis:** %HOMEPATH%\\QLC+\\RGBScripts
-* **Windows-Systemverzeichnis:** C:\\QLC+\\RGBScripts
+* **Windows-Benutzerverzeichnis:** `%HOMEPATH%\QLC+\RGBScripts`
+* **Windows-Systemverzeichnis:** `C:\QLC+\RGBScripts`
 
 ## RGB-Skriptsyntax
 

@@ -43,9 +43,9 @@ i intentar activar/[desactivar el controlador](/plugins/disable-apple-serial-vcp
 i les plantilles MIDI.Canvia en funció del vostre sistema operatiu:
 
 * **Linux**: és una carpeta oculta al directori d'inici de l'usuari: $HOME/.`qlcplus`
-* **Windows**: és una carpeta del vostre directori d'usuari (per exemple, <Username>): C:\\Users\\<Username>\\QLC+
-* **Mac OS**: es troba al vostre usuari `Directori de biblioteques`: `$HOME/Biblioteca/Aplicació\\ Suport/QLC+`
-  Podeu arribar a qualsevol d'aquestes carpetes des d'un terminal amb l'ordre `cd`. Per exemple:`cd $HOME/Biblioteca/Aplicació\\ Suport/`
+* **Windows**: és una carpeta del vostre directori d'usuari (per exemple, <Username>): `C:\Users\<Username>\QLC+`
+* **Mac OS**: es troba al vostre usuari `Directori de biblioteques`: `$HOME/Biblioteca/Aplicació\ Suport/QLC+`
+  Podeu arribar a qualsevol d'aquestes carpetes des d'un terminal amb l'ordre `cd`. Per exemple:`cd $HOME/Biblioteca/Aplicació\ Suport/`
   QLC+ Tingueu en compte que els fixtures i els perfils d'entrada que es troben a la carpeta d'usuari
   tindran prioritat sobre els mateixos fitxers de la carpeta del sistema QLC+. També podeu desar
   [definicions de Fixture](/basics/glossary-and-concepts#fixtures) 
@@ -56,7 +56,7 @@ i les plantilles MIDI.Canvia en funció del vostre sistema operatiu:
 **R:** La carpeta del sistema és on s'instal·len els recursos QLC+ (fixtures, perfils d'entrada, scripts RGB, etc) i canvia depenent del vostre sistema operatiu:
 
 * **Linux**: és una carpeta fixa anomenada `/usr/share/qlcplus`
-* **Windows**: és la carpeta on heu instal·lat realment QLC+. Per defecte: `C:\\QLC+`
+* **Windows**: és la carpeta on heu instal·lat realment QLC+. Per defecte: `C:\QLC+`
 * **Mac OS**: és una carpeta dins del paquet QLC+ (fitxer.app). És possible navegar pel contingut del
   paquet QLC+.app simplement amb el Finder. Simplement feu clic dret sobre el fitxer i seleccioneu
   «Mostra el contingut del paquet».<br>En cas contrari, es pot arribar a la carpeta del sistema amb
@@ -76,7 +76,7 @@ algun paquet de còdecs addicionals com K-Lite, [disponible aquí](https://www.c
 les Qt que a escala automàtica la interfície en una pantalla de PPP alt. Exemples:
 
 * **Linux (des de terminal)**: `QT.AUTO.SCREEN.SCALE.FACTOR11 qlcplus`
-* **drecera de Windows**: `C:\\Windows\\System32\\cmd.exe /c "SET QT.AUTO.SCREEN.SCALE.FACTOR11 && START /D ."C:\\QLC+." qlcplus.exe"`
+* **drecera de Windows**: `C:\Windows\System32\cmd.exe /c "SET QT.AUTO.SCREEN.SCALE.FACTOR11 && START /D ."C:\QLC+." qlcplus.exe"`
 * **Mac OS**: `QT.AUTO.SCREEN.SCALE.1 QLC+.app\\Contents\\MacOS\\qlcplus`
   [Per a més informació.](/advanced/command-line-parameters) 
 

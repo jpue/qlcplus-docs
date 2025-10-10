@@ -48,12 +48,12 @@ and try to enable/disable the Apple driver with it.
 It changes depending on your operating system:
 
 * **Linux**: it is a hidden folder in your user home directory: `$HOME/.qlcplus`
-* **Windows**: it is a folder in your user (e.g. <Username>) directory: `C:\\Users\\<Username>\\QLC+`
-* **Mac OS**: it is located in your user `Library` directory: `$HOME/Library/Application\\ Support/QLC+`
+* **Windows**: it is a folder in your user (e.g. <Username>) directory: `C:\Users\<Username>\QLC+`
+* **Mac OS**: it is located in your user `Library` directory: `$HOME/Library/Application\ Support/QLC+`
 
 You can reach any of these folders from a terminal with the `cd` command. For example:
 
-`cd $HOME/Library/Application\\ Support/QLC+`
+`cd $HOME/Library/Application\ Support/QLC+`
 
 Please keep in mind that fixtures and input profiles found in the user folder will have precedence over
 the same files in the QLC+ system folder. 
@@ -68,7 +68,7 @@ them when you open that project.
 and it changes depending on your operating system:
 
 * **Linux**: it's a fixed folder named `/usr/share/qlcplus`
-* **Windows**: it is the folder where you actually installed QLC+. By default: `C:\\QLC+`
+* **Windows**: it is the folder where you actually installed QLC+. By default: `C:\QLC+`
 * **Mac OS**: it is a folder inside the QLC+ bundle (.app file). It is possible to browse
   the QLC+.app bundle contents simply with Finder. Just right click on the file and select
   "Show Package Contents".<br>Otherwise, the system folder can be reached with a terminal
@@ -88,7 +88,7 @@ codecs package like K-Lite, [available here](https://www.codecguide.com/download
 the interface on a High DPI display. Examples:
 
 * **Linux (from terminal)**: `QT_AUTO_SCREEN_SCALE_FACTOR=1 qlcplus`
-* **Windows shortcut**: `C:\\Windows\\System32\\cmd.exe /c "SET QT_AUTO_SCREEN_SCALE_FACTOR=1 && START /D ^"C:\\QLC+^" qlcplus.exe"`
+* **Windows shortcut**: `C:\Windows\System32\cmd.exe /c "SET QT_AUTO_SCREEN_SCALE_FACTOR=1 && START /D ^"C:\QLC+^" qlcplus.exe"`
 * **Mac OS (from terminal)**: `QT_AUTO_SCREEN_SCALE_FACTOR=1 QLC+.app\\Contents\\MacOS\\qlcplus`
 
 In case, see the [command line parameters page](/advanced/command-line-parameters) for further information.

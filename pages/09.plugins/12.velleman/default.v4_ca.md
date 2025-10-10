@@ -13,4 +13,4 @@ Requisits
 
 ### Windows
 
-Heu de copiar el fitxer propietari Velleman [K8062D.dll](https://www.qlcplus.org/misc/K8062DLL_mod1.zip) a la carpeta principal de QLC+ (p. ex. C:\\QLC+).
+Heu de copiar el fitxer propietari Velleman [K8062D.dll](https://www.qlcplus.org/misc/K8062DLL_mod1.zip) a la carpeta principal de QLC+ (p. ex. `C:\QLC+`).

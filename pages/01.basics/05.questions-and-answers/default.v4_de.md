@@ -46,12 +46,12 @@ Versuchen Sie den Apple-Treiber damit zu aktivieren/deaktivieren.
 Es ändert sich je nach Betriebssystem:
 
 * **Linux**: Es handelt sich um einen versteckten Ordner in Ihrem Benutzer-Home-Verzeichnis: `$HOME/.qlcplus`
-* **Windows**: Es handelt sich um einen Ordner in Ihrem Benutzerverzeichnis (z. B. <Benutzername>): `C:\\Users\\<Username>\\QLC+`
-* **Mac OS**: Es befindet sich in Ihrem Benutzerverzeichnis „Bibliothek“: `$HOME/Library/Application\\ Support/QLC+`
+* **Windows**: Es handelt sich um einen Ordner in Ihrem Benutzerverzeichnis (z.B. <Benutzername>): `C:\Users\<Benutzername>\QLC+`
+* **Mac OS**: Es befindet sich in Ihrem Benutzerverzeichnis „Bibliothek“: `$HOME/Library/Application\ Support/QLC+`
 
 Sie können jeden dieser Ordner von einem Terminal aus mit dem Befehl `cd` erreichen. Zum Beispiel:
 
-`cd $HOME/Library/Application\\ Support/QLC+`
+`cd $HOME/Library/Application\ Support/QLC+`
 
 Bitte beachten Sie, dass im Benutzerordner gefundene Geräte und Eingabeprofile Vorrang haben
 die gleichen Dateien im QLC+-Systemordner.
@@ -66,7 +66,7 @@ findet QLC+ sie, wenn Sie das Projekt öffnen.
 und es ändert sich je nach Betriebssystem:
 
 * **Linux**: ein immer gleicher Ordner: `/usr/share/qlcplus`
-* **Windows**: Es ist der Ordner, in dem Sie QLC+ installiert haben. Standartmäßig: `C:\\QLC+`
+* **Windows**: Es ist der Ordner, in dem Sie QLC+ installiert haben. Standartmäßig: `C:\QLC+`
 * **Mac OS**: Es handelt sich um einen Ordner im QLC+-Bundle (.app-Datei). Es ist möglich zu stöbern
   Die QLC+ .app-Bundle-Inhalte einfach mit Finder. Klicken Sie einfach mit der rechten Maustaste auf die Datei und wählen Sie sie aus
   „Paketinhalt anzeigen“.<br>Andernfalls ist der Systemordner über ein Terminal erreichbar
@@ -85,7 +85,7 @@ Leider sind die von Windows unterstützten grundlegenden Codecs ziemlich dürfti
 die Schnittstelle auf einem High-DPI-Display. Beispiele:
 
 * **Linux (from terminal)**: `QT_AUTO_SCREEN_SCALE_FACTOR=1 qlcplus`
-* **Windows shortcut**: `C:\\Windows\\System32\\cmd.exe /c "SET QT_AUTO_SCREEN_SCALE_FACTOR=1 && START /D ^"C:\\QLC+^" qlcplus.exe"`
+* **Windows shortcut**: `C:\Windows\System32\cmd.exe /c "SET QT_AUTO_SCREEN_SCALE_FACTOR=1 && START /D ^"C:\QLC+^" qlcplus.exe"`
 * **Mac OS (from terminal)**: `QT_AUTO_SCREEN_SCALE_FACTOR=1 QLC+.app\\Contents\\MacOS\\qlcplus`
 
 Im Falle, schaue nach den [command line parameters page](/advanced/command-line-parameters) für weitere Informationen.

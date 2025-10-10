@@ -13,7 +13,7 @@ El nom del fitxer està codificat a QLC+ i ha de ser: `qlcplusStyle.qss`
 El fitxer d'estil també s'ha de col·locar en un camí específic que és:
 
 * **Linux**: `$HOME/.qlcplus`
-* **Windows**: `<your user folder>/QLC+`
+* **Windows**: `C:\Users\{Username}\QLC+`
 * **OSX**: `Library/Application Support/QLC+`
 
 El fitxer d'estil ha de tenir una sintaxi CSS. Si esteu còmode amb el disseny web, heu de trobar la creació d'aquest fitxer molt fàcil!  

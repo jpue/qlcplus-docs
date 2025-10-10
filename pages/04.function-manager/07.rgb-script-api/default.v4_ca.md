@@ -9,14 +9,14 @@ Els scripts estan escrits en [ECMAScript](https://ca.wikipedia.org/wiki/ECMAScri
 
 Els fitxers d'script s'han de nomenar amb el nom de l'script i han de tenir una extensió **.js**. Depenent de la plataforma, els fitxers s'han de col·locar al directori d'scripts del sistema QLC+ o, preferiblement, al directori d'scripts de l'usuari:
 
-* **Directori d'usuari de Linux:** ~/.qlcplus/rgbscripts/
-* **Directori del sistema Linux:** /usr/share/qlcplus/rgbscripts/
+* **Directori d'usuari de Linux:** `~/.qlcplus/rgbscripts/`
+* **Directori del sistema Linux:** `/usr/share/qlcplus/rgbscripts/`
 
-* **Directori d'usuari OSX:**  ~/Library/Application Support/QLC+/RGBScripts
-* **Directori del sistema OSX:** /Applications/QLC+.app/Contents/Resources/RGBScripts
+* **Directori d'usuari OSX:**  `~/Library/Application Support/QLC+/RGBScripts`
+* **Directori del sistema OSX:** `/Applications/QLC+.app/Contents/Resources/RGBScripts`
 
-* **Directori d'usuari de Windows:** %HOMEPATH%\\QLC+\\RGBScripts
-* **Directori del sistema Windows:** C:\\QLC+\\RGBScripts
+* **Directori d'usuari de Windows:** `%HOMEPATH%\QLC+\RGBScripts`
+* **Directori del sistema Windows:** `C:\QLC+\RGBScripts`
 
 Sintaxi de l'Script RGB
 ==============

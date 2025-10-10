@@ -9,14 +9,14 @@ The scripts themselves are written in [ECMAScript](https://en.wikipedia.org/wiki
 
 Script files should be named after the script's name and must have a **.js** extension. Depending on platform, the files should be placed either in the QLC+ system script directory or, preferably, the user script directory:
 
-* **Linux user dir:** ~/.qlcplus/rgbscripts/
-* **Linux system dir:** /usr/share/qlcplus/rgbscripts/
+* **Linux user dir:** `~/.qlcplus/rgbscripts/`
+* **Linux system dir:** `/usr/share/qlcplus/rgbscripts/`
 
-* **OSX user dir:** ~/Library/Application Support/QLC+/RGBScripts
-* **OSX system dir:** /Applications/QLC+.app/Contents/Resources/RGBScripts
+* **OSX user dir:** `~/Library/Application Support/QLC+/RGBScripts`
+* **OSX system dir:** `/Applications/QLC+.app/Contents/Resources/RGBScripts`
 
-* **Windows user dir:** %HOMEPATH%\\QLC+\\RGBScripts
-* **Windows system dir:** C:\\QLC+\\RGBScripts
+* **Windows user dir:** `%HOMEPATH%\QLC+\RGBScripts`
+* **Windows system dir:** `C:\QLC+\RGBScripts`
 
 ## RGB Script Syntax
 
