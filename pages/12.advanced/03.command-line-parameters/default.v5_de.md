@@ -3,32 +3,31 @@ title: 'Kommandozeilenparameter'
 date: '08:19 22-08-2023'
 ---
 
-QLC+ unterstützt eine Reihe von Kommandozeilenparametern, um beim Start
-einige Funktionen zu automatisieren/erweitern.
-Die Verwendung von Kommandozeilenparametern kann je nach verwendetem
-Betriebssystem unterschiedlich schwierig sein:
+QLC+ unterstützt eine Reihe von Kommandozeilenparametern, um bestimmte Funktionen beim Start zu automatisieren oder zu erweitern.  
+Die Verwendung von Kommandozeilenparametern kann je nach verwendetem Betriebssystem unterschiedlich schwierig sein:
 
-**Linux**: Öffnen Sie einfach ein Terminal und geben Sie `qlcplus5` gefolgt
-von den benötigten Parametern ein<br>
-**Windows**: Erstellen Sie eine Verknüpfung von qlcplus5.exe (normalerweise
-unter C:\\QLC+) auf Ihrem Desktop. Klicken Sie mit der rechten Maustaste auf
+**Linux**: Öffnen Sie einfach ein Terminal und geben Sie `qlcplus5` (bis
+Version 5.2.2: `qlcplus-qml`) gefolgt von den benötigten Parametern ein.<br>
+**Windows**: Erstellen Sie eine Verknüpfung von `qlcplus5.exe` (bis Version
+5.2.2: `qlcplus-qml.exe`; jeweils normalerweise unter `C:\\QLC+`) auf Ihrem
+Desktop. Klicken Sie mit der rechten Maustaste auf
 die Verknüpfung und wählen Sie „Eigenschaften“. Im Feld „Ziel“ sehen Sie etwas
-wie `C:\\QLC+\\qlcplus5.exe`. Dort können Sie Kommandozeilenparameter
-hinzufügen. Klicken Sie anschließend auf OK.<br>
-Um zum Beispiel die deutsche Sprache beim Start zu erzwingen, ändern Sie Ihre
-Verknüpfungs-Befehlszeile wie folgt:
+wie `C:\\QLC+\\qlcplus5.exe` (bis Version 5.2.2: `C:\\QLC+\\qlcplus-qml.exe`).
+Dort können Sie Kommandozeilenparameter hinzufügen. Klicken Sie anschließend
+auf „OK“.<br>
+Um zum Beispiel die deutsche Sprache beim Start zu erzwingen, ändern Sie die
+Befehlszeile Ihrer Verknüpfung wie folgt:
 
 ![](../command-line-v5.png)
 
-**OSX**: Dies ist der schwierigste Fall, da QLC+ unter OSX in einem
+**macOS/OSX**: Dies ist der anspruchsvollste Fall, da QLC+ unter macOS/OSX in einem
 DMG-Paket gebündelt ist. Sie müssen ein Terminal öffnen und mit „cd“ in das
 QLC+-DMG wechseln:<br>`cd QLC+.app\\Contents\\MacOS`<br>
-Geben Sie anschließend `./qlcplus5` gefolgt von den benötigten Parametern
-ein.
+Geben Sie anschließend `./qlcplus5` gefolgt von den benötigten Parametern ein.
 
 |     |
 | --- |
-| **-o oder --open**<br><br>**Beschreibung:** Öffnet die angegebene Arbeitsbereichsdatei<br><br>**Parameter:** Dateiname<br><br>**Beispiele:**  <br>sample.qxw öffnen:  <br>qlcplus5 -o sample.qxw  <br>qlcplus5 --open sample.qxw |
+| **-o oder --open**<br><br>**Beschreibung:** Öffnet die angegebene Projektdatei<br><br>**Parameter:** Dateiname<br><br>**Beispiele:**  <br>`sample.qxw` öffnen:  <br>qlcplus5 -o sample.qxw  <br>qlcplus5 --open sample.qxw |
 
 |     |
 | --- |
@@ -36,7 +35,7 @@ ein.
 
 |     |
 | --- |
-| **-f oder --fullscreen**<br><br>**Beschreibung:** Startet die Anwendung im Vollbildmodus<br><br>**Parameter:** Keine<br><br>**Beispiele:**  <br>Den Fenstermanager anweisen, QLC+ den gesamten Bildschirmbereich zuzuweisen:  <br>qlcplus5 -f  <br>qlcplus5 --fullscreen |
+| **-f oder --fullscreen**<br><br>**Beschreibung:** Startet die Anwendung im Vollbildmodus<br><br>**Parameter:** Keine<br><br>**Beispiele:**  <br>Den Fenstermanager anweisen, den gesamten Bildschirm für QLC+ bereitzustellen:  <br>qlcplus5 -f  <br>qlcplus5 --fullscreen |
 
 |     |
 | --- |
@@ -52,7 +51,7 @@ ein.
 
 |     |
 | --- |
-| **-l oder --locale**<br><br>**Beschreibung:** Verwendet die angegebene Sprache für die Übersetzung<br><br>**Parameter:** Sprachcode (derzeit unterstützt: ca\_ES, cz\_CZ, de\_DE, en\_GB, es\_ES, fi\_FI, fr\_FR, it\_IT, ja\_JP, nl\_NL, pt_BR)<br><br>**Beispiele:**  <br>Finnische Sprache verwenden:  <br>qlcplus5 -l fi_FI  <br>qlcplus5 --locale fi_FI |
+| **-l oder --locale**<br><br>**Beschreibung:** Verwendet die angegebene Sprache für die Übersetzung<br><br>**Parameter:** Sprachcode (derzeit unterstützt: ca\_ES, de\_DE, en\_GB, es\_ES, fr\_FR, it\_IT, ja\_JP, nl\_NL, pl\_PL, ru\_RU, uk\_UA)<br><br>**Beispiele:**  <br>Französische Sprache verwenden:  <br>qlcplus5 -l fr_FR  <br>qlcplus5 --locale fr_FR |
 
 |     |
 | --- |
@@ -64,7 +63,7 @@ ein.
 
 |     |
 | --- |
-| **-w oder --web**<br><br>**Beschreibung:** Aktiviert den Remote-Webzugriff auf Port 9999<br><br>**Parameter:** Keine<br><br>**Beispiele:**  <br>qlcplus5 -w  <br>qlcplus5 --web |
+| **-w oder --web**<br><br>**Beschreibung:** Aktiviert den Webzugriff auf Port `9999`<br><br>**Parameter:** Keine<br><br>**Beispiele:**  <br>qlcplus5 -w  <br>qlcplus5 --web |
 
 |     |
 | --- |
@@ -72,11 +71,11 @@ ein.
 
 |     |
 | --- |
-| **-wa oder --web-auth**<br><br>**Beschreibung:** Aktiviert den Remote-Webzugriff mit Benutzerauthentifizierung<br><br>**Parameter:** Keine<br><br>**Beispiele:**  <br>qlcplus5 -wa  <br>qlcplus5 --web-auth |
+| **-wa oder --web-auth**<br><br>**Beschreibung:** Aktiviert die Benutzerauthentifizierung für den Webzugriff<br><br>**Parameter:** Keine<br><br>**Beispiele:**  <br>qlcplus5 -wa  <br>qlcplus5 --web-auth |
 
 |     |
 | --- |
-| **-a oder --web-auth-file**<br><br>**Beschreibung:** Gibt eine Datei an, in der die Basisauthentifizierungs-Anmeldedaten für den Webzugriff gespeichert werden<br><br>**Parameter:** Dateiname<br><br>**Beispiele:**  <br>qlcplus5 -wa qlcplus_password  <br>qlcplus5 --web-auth-file qlcplus_password |
+| **-a oder --web-auth-file**<br><br>**Beschreibung:** Gibt eine Datei an, in der die Anmeldedaten für die Benutzerauthentifizierung für den Webzugriff gespeichert werden<br><br>**Parameter:** Dateiname<br><br>**Beispiele:**  <br>qlcplus5 -wa qlcplus_password  <br>qlcplus5 --web-auth-file qlcplus_password |
 
 |     |
 | --- |
