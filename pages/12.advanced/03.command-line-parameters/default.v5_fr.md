@@ -52,7 +52,7 @@ avez besoin.
 
 |     |
 | --- |
-| **-l ou --locale**<br><br>**Description :** Utilise la langue indiquée pour la traduction<br><br>**Paramètres :** Code de langue (actuellement pris en charge : ca\_ES, cz\_CZ, de\_DE, en\_GB, es\_ES, fi\_FI, fr\_FR, it\_IT, ja\_JP, nl\_NL, pt_BR)<br><br>**Exemples :**  <br>Utiliser la langue finnoise :  <br>qlcplus5 -l fi_FI  <br>qlcplus5 --locale fi_FI |
+| **-l ou --locale**<br><br>**Description :** Utilise la langue indiquée pour la traduction<br><br>**Paramètres :** Code de langue (actuellement pris en charge : ca\_ES, de\_DE, en\_GB, es\_ES, fr\_FR, it\_IT, ja\_JP, nl\_NL, pl\_PL, ru\_RU, uk\_UA)<br><br>**Exemples :**  <br>Utiliser la langue finnoise :  <br>qlcplus5 -l fi_FI  <br>qlcplus5 --locale fi_FI |
 
 |     |
 | --- |

@@ -51,7 +51,7 @@ Hecho esto, escribir `./qlcplus5` seguido de los parámetros necesarios.
 
 |     |
 | --- |
-| **-l o --locale**<br><br>**Descripción:** Utiliza el idioma especificado para la traducción<br><br>**Parámetros:** Código de idioma (actualmente admitidos: ca\_ES, cz\_CZ, de\_DE, en\_GB, es\_ES, fi\_FI, fr\_FR, it\_IT, ja\_JP, nl\_NL, pt_BR)<br><br>**Ejemplos:**  <br>Utilizar el idioma finlandés:  <br>qlcplus5 -l fi_FI  <br>qlcplus5 --locale fi_FI |
+| **-l o --locale**<br><br>**Descripción:** Utiliza el idioma especificado para la traducción<br><br>**Parámetros:** Código de idioma (actualmente admitidos: ca\_ES, de\_DE, en\_GB, es\_ES, fr\_FR, it\_IT, ja\_JP, nl\_NL, pl\_PL, ru\_RU, uk\_UA)<br><br>**Ejemplos:**  <br>Utilizar el idioma finlandés:  <br>qlcplus5 -l fi_FI  <br>qlcplus5 --locale fi_FI |
 
 |     |
 | --- |
