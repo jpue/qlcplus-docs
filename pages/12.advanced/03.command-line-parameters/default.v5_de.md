@@ -9,10 +9,10 @@ Die Verwendung von Kommandozeilenparametern kann je nach verwendetem Betriebssys
 **Linux**: Öffnen Sie einfach ein Terminal und geben Sie `qlcplus5` (bis
 Version 5.2.2: `qlcplus-qml`) gefolgt von den benötigten Parametern ein.<br>
 **Windows**: Erstellen Sie eine Verknüpfung von `qlcplus5.exe` (bis Version
-5.2.2: `qlcplus-qml.exe`; jeweils normalerweise unter `C:\\QLC+`) auf Ihrem
+5.2.2: `qlcplus-qml.exe`; jeweils normalerweise unter `C:\QLC+`) auf Ihrem
 Desktop. Klicken Sie mit der rechten Maustaste auf
 die Verknüpfung und wählen Sie „Eigenschaften“. Im Feld „Ziel“ sehen Sie etwas
-wie `C:\\QLC+\\qlcplus5.exe` (bis Version 5.2.2: `C:\\QLC+\\qlcplus-qml.exe`).
+wie `C:\QLC+\qlcplus5.exe` (bis Version 5.2.2: `C:\QLC+\qlcplus-qml.exe`).
 Dort können Sie Kommandozeilenparameter hinzufügen. Klicken Sie anschließend
 auf „OK“.<br>
 Um zum Beispiel die deutsche Sprache beim Start zu erzwingen, ändern Sie die
@@ -22,8 +22,9 @@ Befehlszeile Ihrer Verknüpfung wie folgt:
 
 **macOS/OSX**: Dies ist der anspruchsvollste Fall, da QLC+ unter macOS/OSX in einem
 DMG-Paket gebündelt ist. Sie müssen ein Terminal öffnen und mit „cd“ in das
-QLC+-DMG wechseln:<br>`cd QLC+.app\\Contents\\MacOS`<br>
-Geben Sie anschließend `./qlcplus5` gefolgt von den benötigten Parametern ein.
+QLC+-DMG wechseln:<br>`cd QLC+.app\Contents\MacOS`<br>
+Geben Sie anschließend `./qlcplus5` (bis Version 5.2.2: `./qlcplus-qml`)
+gefolgt von den benötigten Parametern ein.
 
 |     |
 | --- |
