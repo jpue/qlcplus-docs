@@ -48,12 +48,12 @@ i provar d'activar/desactivar el controlador d'Apple amb ella.
 Canvia segons el teu sistema operatiu:
 
 * **Linux**: és una carpeta oculta al directori d'inici del teu usuari: `$HOME/.qlcplus`
-* **Windows**: és una carpeta al teu directori d'usuari (p. ex. <Username>): `C:\\Users\\<Username>\\QLC+`
-* **Mac OS**: es troba al directori `Library` del teu usuari: `$HOME/Library/Application\\ Support/QLC+`
+* **Windows**: és una carpeta al teu directori d'usuari (p. ex. <Username>): `C:\Users\<Username>\QLC+`
+* **Mac OS**: es troba al directori `Library` del teu usuari: `$HOME/Library/Application\ Support/QLC+`
 
 Pots accedir a qualsevol d'aquestes carpetes des d'un terminal amb l'ordre `cd`. Per exemple:
 
-`cd $HOME/Library/Application\\ Support/QLC+`
+`cd $HOME/Library/Application\ Support/QLC+`
 
 Tingues en compte que els fixtures i els perfils d'entrada que es trobin a la carpeta d'usuari tindran precedència sobre
 els mateixos fitxers a la carpeta de sistema de QLC+. 
@@ -68,7 +68,7 @@ quan obris aquest projecte.
 i canvia segons el teu sistema operatiu:
 
 * **Linux**: és una carpeta fixa anomenada `/usr/share/qlcplus`
-* **Windows**: és la carpeta on realment has instal·lat QLC+. Per defecte: `C:\\QLC+`
+* **Windows**: és la carpeta on realment has instal·lat QLC+. Per defecte: `C:\QLC+`
 * **Mac OS**: és una carpeta dins del paquet de QLC+ (fitxer .app). És possible explorar
   el contingut del paquet QLC+.app simplement amb el Finder. Només cal fer clic amb el botó dret al fitxer i seleccionar
   "Show Package Contents".<br>En cas contrari, es pot accedir a la carpeta de sistema amb un terminal
@@ -88,8 +88,8 @@ paquet de còdecs addicional com K-Lite, [disponible aquí](https://www.codecgui
 automàticament la interfície en una pantalla d'alta densitat (High DPI). Exemples:
 
 * **Linux (des del terminal)**: `QT_AUTO_SCREEN_SCALE_FACTOR=1 qlcplus5`
-* **Drecera de Windows**: `C:\\Windows\\System32\\cmd.exe /c "SET QT_AUTO_SCREEN_SCALE_FACTOR=1 && START /D ^"C:\\QLC+^" qlcplus5.exe"`
-* **Mac OS (des del terminal)**: `QT_AUTO_SCREEN_SCALE_FACTOR=1 QLC+.app\\Contents\\MacOS\\qlcplus5`
+* **Drecera de Windows**: `C:\Windows\System32\cmd.exe /c "SET QT_AUTO_SCREEN_SCALE_FACTOR=1 && START /D ^"C:\QLC+^" qlcplus5.exe"`
+* **Mac OS (des del terminal)**: `QT_AUTO_SCREEN_SCALE_FACTOR=1 QLC+.app\Contents\MacOS\qlcplus5`
 
 En qualsevol cas, consulta la pàgina de [paràmetres de línia d'ordres](/advanced/command-line-parameters) per a més informació.
 

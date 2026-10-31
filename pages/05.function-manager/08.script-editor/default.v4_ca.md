@@ -63,14 +63,14 @@ blackout:off
 **Tipus**: paraula clau <br>
 **Descripció**: executeu un programa o un script al camí absolut proporcionat amb els arguments (opcionals) proporcionats.  <br>
 **Sintaxi**:`systemcommand:programPath arg:arg1 arg:arg2 ... arg:argN`<br>
-`programPath` és el camí absolut d'un programa executable o script. Per exemple `/usr/bin/vlc` o `C:\\Tools\\myTool.exe`<br>
+`programPath` és el camí absolut d'un programa executable o script. Per exemple `/usr/bin/vlc` o `C:\Tools\myTool.exe`<br>
 Si el camí a un executable conté espais, s'ha d'escriure entre cometes.  <br>
 `.arg1 ... argN` són els arguments que s'han d'utilitzar en executar _programPath_. Si no es necessiten arguments, llavors les paraules clau arg: no són necessàries.  <br>
 Si un argument contanca espais, s'ha d'escriure entre cometes.<br>
 **Exemples**:
 ```
 systemcommand:/usr/bin/vlc arg:-f arg:/home/usuari/vídeo.mp4 // reprodueix el meu vídeo amb el VLC a pantalla completa
-systemcommand:"C:\\Fitxers de programa\\Eines\\My Tool.exe" arg:"D:\\My Files\\My file.txt"
+systemcommand:"C:\Fitxers de programa\Eines\My Tool.exe" arg:"D:\My Files\My file.txt"
 ```
 
 #### setfixture

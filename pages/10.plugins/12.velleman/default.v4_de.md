@@ -13,4 +13,4 @@ Anforderungen
 
 ### Windows
 
-Sie müssen die proprietäre Velleman-Datei [K8062D.dll](https://www.qlcplus.org/misc/K8062DLL_mod1.zip) in den QLC+-Hauptordner (z. B. C:\\QLC+) kopieren.
+Sie müssen die proprietäre Velleman-Datei [K8062D.dll](https://www.qlcplus.org/misc/K8062DLL_mod1.zip) in den QLC+-Hauptordner (z.B. `C:\QLC+`) kopieren.

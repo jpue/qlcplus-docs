@@ -7,12 +7,12 @@ QLC+ suporta una sèrie de paràmetres de línia d'ordres per automatitzar/ampli
 L'ús de paràmetres de línia d'ordres pot ser complicat depenent del sistema operatiu que utilitzeu:
 
 **Linux**: simplement obriu un terminal i escriviu `qlcplus5` seguit dels paràmetres que necessiteu<br>
-**Windows**: creeu una drecera de qlcplus5.exe (normalment ubicat a C:\\QLC+) al vostre escriptori. Feu clic dret a la drecera i seleccioneu "Propietats". Al camp "Objectiu" veureu una cosa com `C:\\QLC+\\qlcplus5.exe`. Allà podeu afegir paràmetres de línia d'ordres. Quan acabeu feu clic a D'acord.<br>
+**Windows**: creeu una drecera de qlcplus5.exe (normalment ubicat a `C:\QLC+`) al vostre escriptori. Feu clic dret a la drecera i seleccioneu "Propietats". Al camp "Objectiu" veureu una cosa com `C:\QLC+\qlcplus5.exe`. Allà podeu afegir paràmetres de línia d'ordres. Quan acabeu feu clic a D'acord.<br>
 Per exemple, per forçar l'idioma alemany a l'inici, modifiqueu la línia d'ordres de la drecera així:
 
 ![](../command-line-v5.png)
 
-**OSX**: Aquest és el cas més difícil, ja que QLC+ a OSX s'inclou en un paquet DMG. Cal obrir un terminal i fer "cd" al DMG de QLC+ així:<br>`cd QLC+.app\\Contents\\MacOS`<br>
+**OSX**: Aquest és el cas més difícil, ja que QLC+ a OSX s'inclou en un paquet DMG. Cal obrir un terminal i fer "cd" al DMG de QLC+ així:<br>`cd QLC+.app\Contents\MacOS`<br>
 Quan hàgiu acabat, escriviu `./qlcplus5` seguit dels paràmetres que necessiteu.
 
 |     |

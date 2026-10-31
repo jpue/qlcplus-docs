@@ -11,9 +11,9 @@ selon le système d'exploitation utilisé :
 **Linux** : il suffit d'ouvrir un terminal et de taper `qlcplus5` suivi
 des paramètres dont vous avez besoin<br>
 **Windows** : créez un raccourci vers qlcplus5.exe (généralement situé
-dans C:\\QLC+) sur votre bureau. Faites un clic droit sur le raccourci et
+dans `C:\QLC+`) sur votre bureau. Faites un clic droit sur le raccourci et
 sélectionnez « Propriétés ». Dans le champ « Cible », vous verrez quelque
-chose comme `C:\\QLC+\\qlcplus5.exe`. Vous pouvez y ajouter des
+chose comme `C:\QLC+\qlcplus5.exe`. Vous pouvez y ajouter des
 paramètres de ligne de commande. Une fois terminé, cliquez sur OK.<br>
 Par exemple, pour forcer la langue allemande au démarrage, modifiez la ligne
 de commande de votre raccourci comme ceci :
@@ -22,7 +22,7 @@ de commande de votre raccourci comme ceci :
 
 **OSX** : c'est le cas le plus difficile puisque QLC+ sur OSX est fourni
 dans un paquet DMG. Vous devez ouvrir un terminal et faire "cd" dans le DMG
-de QLC+ comme ceci :<br>`cd QLC+.app\\Contents\\MacOS`<br>
+de QLC+ comme ceci :<br>`cd QLC+.app\Contents\MacOS`<br>
 Une fois cela fait, tapez `./qlcplus5` suivi des paramètres dont vous
 avez besoin.
 

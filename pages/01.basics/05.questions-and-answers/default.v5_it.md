@@ -48,12 +48,12 @@ e provare ad abilitare/disabilitare il driver Apple con esso.
 Cambia a seconda del vostro sistema operativo:
 
 * **Linux**: è una cartella nascosta nella directory home del vostro utente: `$HOME/.qlcplus`
-* **Windows**: è una cartella nella directory del vostro utente (es. <Username>): `C:\\Users\\<Username>\\QLC+`
-* **Mac OS**: si trova nella directory `Library` del vostro utente: `$HOME/Library/Application\\ Support/QLC+`
+* **Windows**: è una cartella nella directory del vostro utente (es. <Username>): `C:\Users\<Username>\QLC+`
+* **Mac OS**: si trova nella directory `Library` del vostro utente: `$HOME/Library/Application\ Support/QLC+`
 
 Potete raggiungere una qualsiasi di queste cartelle da un terminale con il comando `cd`. Ad esempio:
 
-`cd $HOME/Library/Application\\ Support/QLC+`
+`cd $HOME/Library/Application\ Support/QLC+`
 
 Tenete presente che i fixture e i profili di input presenti nella cartella utente avranno la precedenza rispetto
 agli stessi file nella cartella di sistema di QLC+. 
@@ -68,7 +68,7 @@ troverà quando aprirete quel progetto.
 e cambia a seconda del vostro sistema operativo:
 
 * **Linux**: è una cartella fissa chiamata `/usr/share/qlcplus`
-* **Windows**: è la cartella in cui avete effettivamente installato QLC+. Per impostazione predefinita: `C:\\QLC+`
+* **Windows**: è la cartella in cui avete effettivamente installato QLC+. Per impostazione predefinita: `C:\QLC+`
 * **Mac OS**: è una cartella all'interno del pacchetto QLC+ (file .app). È possibile sfogliare
   il contenuto del pacchetto QLC+.app semplicemente con Finder. Basta fare clic con il tasto destro sul file e selezionare
   "Mostra contenuto pacchetto".<br>In alternativa, la cartella di sistema può essere raggiunta con un terminale,
@@ -88,8 +88,8 @@ aggiuntivi come K-Lite, [disponibile qui](https://www.codecguide.com/download_kl
 l'interfaccia su un display ad alta densità di pixel (High DPI). Esempi:
 
 * **Linux (da terminale)**: `QT_AUTO_SCREEN_SCALE_FACTOR=1 qlcplus5`
-* **Collegamento Windows**: `C:\\Windows\\System32\\cmd.exe /c "SET QT_AUTO_SCREEN_SCALE_FACTOR=1 && START /D ^"C:\\QLC+^" qlcplus5.exe"`
-* **Mac OS (da terminale)**: `QT_AUTO_SCREEN_SCALE_FACTOR=1 QLC+.app\\Contents\\MacOS\\qlcplus5`
+* **Collegamento Windows**: `C:\Windows\System32\cmd.exe /c "SET QT_AUTO_SCREEN_SCALE_FACTOR=1 && START /D ^"C:\QLC+^" qlcplus5.exe"`
+* **Mac OS (da terminale)**: `QT_AUTO_SCREEN_SCALE_FACTOR=1 QLC+.app\Contents\MacOS\qlcplus5`
 
 Nel caso, consultate la pagina [parametri della riga di comando](/advanced/command-line-parameters) per ulteriori informazioni.
 

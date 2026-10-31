@@ -63,14 +63,14 @@ blackout:off
 **Type**: keyword  <br>
 **Description**: execute a program or a script at the provided absolute path with the (optional) provided arguments.  <br>
 **Syntax**:`systemcommand:programPath arg:arg1 arg:arg2 ... arg:argN`<br>
-`programPath` is the absolute path of an executable program or script. For example `/usr/bin/vlc` or `C:\\Tools\\myTool.exe`<br>
+`programPath` is the absolute path of an executable program or script. For example `/usr/bin/vlc` or `C:\Tools\myTool.exe`<br>
 If the path to an executable contains spaces, it must be written between quotes.  <br>
 `_arg1 ... argN` are the arguments to be used when executing _programPath_. If no arguments are needed, then the arg: keywords are not necessary.  <br>
 If an argument contains spaces it must be written between quotes.<br>
 **Examples**:
 ```
 systemcommand:/usr/bin/vlc arg:-f arg:/home/user/video.mp4 // plays my video with VLC in fullscreen
-systemcommand:"C:\\Program Files\\Tools\\My Tool.exe" arg:"D:\\My Files\\My file.txt"
+systemcommand:"C:\Program Files\Tools\My Tool.exe" arg:"D:\My Files\My file.txt"
 ```
 
 #### setfixture

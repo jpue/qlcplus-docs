@@ -63,14 +63,14 @@ blackout:aus
 **Typ**: Schlüsselwort<br>
 **Beschreibung**: führt ein Programm oder ein Skript im angegebenen absoluten Pfad mit den (optionalen) bereitgestellten Argumenten aus<br>
 **Syntax**: `systemcommand:programPath arg:arg1 arg:arg2 ... arg:argN`<br>
-`programPath` ist der absolute Pfad eines ausführbaren Programms oder Skripts. Zum Beispiel `/usr/bin/vlc` or `C:\\Tools\\myTool.exe`<br>
+`programPath` ist der absolute Pfad eines ausführbaren Programms oder Skripts. Zum Beispiel `/usr/bin/vlc` or `C:\Tools\myTool.exe`<br>
 Wenn der Pfad zu einer ausführbaren Datei Leerzeichen enthält, muss er in Anführungszeichen geschrieben werden.<br>
 `_arg1 ... argN` sind die Argumente, die beim Ausführen von _programPath_ verwendet werden sollen. Wenn keine Argumente benötigt werden, sind die Schlüsselwörter `arg:` nicht erforderlich.<br>
 Wenn ein Argument Leerzeichen enthält, muss es in Anführungszeichen geschrieben werden.<br>
 **Beispiele**:
 ```
 systemcommand:/usr/bin/vlc arg:-f arg:/home/user/video.mp4 // spielt mein Video mit VLC im Vollbildmodus ab
-systemcommand:"C:\\Program Files\\Tools\\My Tool.exe" arg:"D:\\My Files\\My file.txt"
+systemcommand:"C:\Program Files\Tools\My Tool.exe" arg:"D:\My Files\My file.txt"
 ```
 
 #### setfixture

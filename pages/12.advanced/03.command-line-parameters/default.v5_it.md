@@ -11,9 +11,9 @@ seconda del sistema operativo utilizzato:
 **Linux**: basta aprire un terminale e digitare `qlcplus5` seguito dai
 parametri necessari<br>
 **Windows**: creare un collegamento a qlcplus5.exe (solitamente in
-C:\\QLC+) sul desktop. Fare clic con il tasto destro sul collegamento e
+`C:\QLC+`) sul desktop. Fare clic con il tasto destro sul collegamento e
 selezionare "Proprietà". Nel campo "Destinazione" comparirà qualcosa come
-`C:\\QLC+\\qlcplus5.exe`. Lì è possibile aggiungere i parametri della riga
+`C:\QLC+\qlcplus5.exe`. Lì è possibile aggiungere i parametri della riga
 di comando. Al termine, fare clic su OK.<br>
 Ad esempio, per forzare la lingua tedesca all'avvio, modificare la riga di
 comando del collegamento in questo modo:
@@ -22,7 +22,7 @@ comando del collegamento in questo modo:
 
 **OSX**: questo è il caso più complesso, poiché QLC+ su OSX è distribuito in
 un pacchetto DMG. È necessario aprire un terminale ed entrare nel DMG di QLC+
-con "cd", in questo modo:<br>`cd QLC+.app\\Contents\\MacOS`<br>
+con "cd", in questo modo:<br>`cd QLC+.app\Contents\MacOS`<br>
 Fatto ciò, digitare `./qlcplus5` seguito dai parametri necessari.
 
 |     |
